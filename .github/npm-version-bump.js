@@ -10,6 +10,7 @@ const pageageFile = {
     "url": "git+https://github.com/CoPoKo/space-static.git"
   },
   "author": "CoPoKo Team",
+  "keywords": ["CoPoKo", "Space", "static"],
   "main": "LICENSE"
 }
 
