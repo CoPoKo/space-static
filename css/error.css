@@ -1,35 +1,62 @@
+/*!
+ * ==========================================================================
+ * "CoPoKo Space" License
+ * GNU General Public License version 3.0 (GPLv3)
+ * ==========================================================================
+ * This file is part of "CoPoKo Space"
+ *
+ * "CoPoKo Space" is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * "CoPoKo Space" is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with "CoPoKo Space". If not, see <http://www.gnu.org/licenses/>.
+ * ==========================================================================
+*/
 a,
 a:active,
 a:hover,
 button {
   outline: 0;
 }
+
 .codrops-header,
 .codrops-top,
 .related a h3,
-.related > a,
+.related>a,
 p.ref,
 section {
   text-align: center;
 }
+
 .codrops-top a {
   text-decoration: none;
   letter-spacing: 1px;
 }
+
 *,
 :after,
 :before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .clearfix:after,
 .clearfix:before {
   content: "";
   display: table;
 }
+
 .clearfix:after {
   clear: both;
 }
+
 body {
   background: #fff;
   color: #383a3c;
@@ -38,31 +65,38 @@ body {
   line-height: 1.25;
   font-family: Calibri, Arial, sans-serif;
 }
+
 a {
   color: #566473;
   text-decoration: none;
 }
+
 a:focus,
 a:hover {
   color: #34495e;
 }
+
 section {
   padding: 1em;
 }
+
 p.ref {
   padding: 2em 1em;
 }
+
 .codrops-header {
   margin: 0 auto;
   padding: 2em;
   max-width: 900px;
 }
+
 .codrops-header h1 {
   margin: 0;
   font-size: 4.5em;
   line-height: 1;
   font-weight: 200;
 }
+
 .codrops-header h1 span {
   display: block;
   padding: 1em 0 1.5em;
@@ -70,6 +104,7 @@ p.ref {
   color: #95a5a6;
   line-height: 1.4;
 }
+
 .codrops-top {
   width: 100%;
   text-transform: uppercase;
@@ -77,10 +112,12 @@ p.ref {
   font-size: 0.69em;
   padding: 3em 0;
 }
+
 .codrops-top a {
   display: inline-block;
   padding: 1.5em;
 }
+
 .codrops-icon:before {
   margin: 0 4px;
   text-transform: none;
@@ -92,33 +129,41 @@ p.ref {
   speak: none;
   -webkit-font-smoothing: antialiased;
 }
+
 .codrops-icon-drop:before {
   content: "\e001";
 }
+
 .codrops-icon-prev:before {
   content: "\e004";
 }
+
 .related {
   padding: 10em 0;
 }
+
 .related p {
   font-size: 1.5em;
 }
-.related > a {
+
+.related>a {
   display: inline-block;
   margin: 20px 10px;
   padding: 25px;
   vertical-align: middle;
 }
+
 .related a img {
   max-width: 100%;
   opacity: 0.8;
   border-radius: 10px;
 }
+
 .related a:active img,
 .related a:hover img {
   opacity: 1;
 }
+
 .related a h3 {
   margin: 0;
   min-height: 63px;
@@ -127,11 +172,13 @@ p.ref {
   font-weight: 400;
   font-size: 1em;
 }
+
 @media screen and (max-width: 40em) {
   .codrops-header h1 {
     font-size: 2.5em;
   }
 }
+
 .large-header {
   position: relative;
   width: 100%;
@@ -140,6 +187,7 @@ p.ref {
   background-size: cover;
   z-index: 1;
 }
+
 /* .container .large-header {
   background-image: url(https://cdn.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg);
   background-position: center bottom;
@@ -148,6 +196,7 @@ img,
 legend {
   border: 0;
 }
+
 article,
 aside,
 details,
@@ -162,53 +211,66 @@ section,
 summary {
   display: block;
 }
+
 audio,
 canvas,
 video {
   display: inline-block;
 }
+
 audio:not([controls]) {
   display: none;
   height: 0;
 }
+
 [hidden] {
   display: none;
 }
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body,
 figure {
   margin: 0;
 }
+
 a:focus {
   outline: dotted thin;
 }
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
 abbr[title] {
   border-bottom: 1px dotted;
 }
+
 b,
 strong {
   font-weight: 700;
 }
+
 dfn {
   font-style: italic;
 }
+
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
+
 mark {
   background: #ff0;
   color: #000;
 }
+
 code,
 kbd,
 pre,
@@ -216,15 +278,19 @@ samp {
   font-family: monospace, serif;
   font-size: 1em;
 }
+
 pre {
   white-space: pre-wrap;
 }
+
 q {
   quotes: "\201C""\201D""\2018""\2019";
 }
+
 small {
   font-size: 80%;
 }
+
 sub,
 sup {
   font-size: 75%;
@@ -232,23 +298,29 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
+
 sup {
   top: -0.5em;
 }
+
 sub {
   bottom: -0.25em;
 }
+
 svg:not(:root) {
   overflow: hidden;
 }
+
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
+
 legend {
   padding: 0;
 }
+
 button,
 input,
 select,
@@ -257,14 +329,17 @@ textarea {
   font-size: 100%;
   margin: 0;
 }
+
 button,
 input {
   line-height: normal;
 }
+
 button,
 select {
   text-transform: none;
 }
+
 button,
 html input[type="button"],
 input[type="reset"],
@@ -272,99 +347,100 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
+
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
+
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
+
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
+
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+
 textarea {
   overflow: auto;
   vertical-align: top;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 ::-webkit-scrollbar-track-piece {
   background-color: #f8f8f8;
 }
+
 ::-webkit-scrollbar {
   width: 9px;
   height: 9px;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: #49b1f5;
-  background-image: -webkit--webkit-linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.4) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.4) 50%,
-    rgba(255, 255, 255, 0.4) 75%,
-    transparent 75%,
-    transparent
-  );
-  background-image: -webkit--moz-linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.4) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.4) 50%,
-    rgba(255, 255, 255, 0.4) 75%,
-    transparent 75%,
-    transparent
-  );
-  background-image: -webkit--o-linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.4) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.4) 50%,
-    rgba(255, 255, 255, 0.4) 75%,
-    transparent 75%,
-    transparent
-  );
-  background-image: -webkit--ms-linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.4) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.4) 50%,
-    rgba(255, 255, 255, 0.4) 75%,
-    transparent 75%,
-    transparent
-  );
-  background-image: -webkit-linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.4) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.4) 50%,
-    rgba(255, 255, 255, 0.4) 75%,
-    transparent 75%,
-    transparent
-  );
+  background-image: -webkit--webkit-linear-gradient(45deg,
+      rgba(255, 255, 255, 0.4) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.4) 75%,
+      transparent 75%,
+      transparent);
+  background-image: -webkit--moz-linear-gradient(45deg,
+      rgba(255, 255, 255, 0.4) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.4) 75%,
+      transparent 75%,
+      transparent);
+  background-image: -webkit--o-linear-gradient(45deg,
+      rgba(255, 255, 255, 0.4) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.4) 75%,
+      transparent 75%,
+      transparent);
+  background-image: -webkit--ms-linear-gradient(45deg,
+      rgba(255, 255, 255, 0.4) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.4) 75%,
+      transparent 75%,
+      transparent);
+  background-image: -webkit-linear-gradient(45deg,
+      rgba(255, 255, 255, 0.4) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.4) 75%,
+      transparent 75%,
+      transparent);
   border-radius: 2em;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background-color: #49b1f6;
 }
@@ -373,52 +449,65 @@ table {
   position: relative;
   width: 100%;
   height: 15vh;
-  margin-bottom: -7px; /*Fix for safari gap*/
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
   min-height: 100px;
   max-height: 150px;
 }
+
 /* Animation */
-.parallax > use {
+.parallax>use {
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
-.parallax > use:nth-child(1) {
+
+.parallax>use:nth-child(1) {
   animation-delay: -2s;
   animation-duration: 7s;
 }
-.parallax > use:nth-child(2) {
+
+.parallax>use:nth-child(2) {
   animation-delay: -3s;
   animation-duration: 10s;
 }
-.parallax > use:nth-child(3) {
+
+.parallax>use:nth-child(3) {
   animation-delay: -4s;
   animation-duration: 13s;
 }
-.parallax > use:nth-child(4) {
+
+.parallax>use:nth-child(4) {
   animation-delay: -5s;
   animation-duration: 20s;
 }
+
 @keyframes move-forever {
   0% {
     transform: translate3d(-90px, 0, 0);
   }
+
   100% {
     transform: translate3d(85px, 0, 0);
   }
-} /*Shrinking for mobile*/
+}
+
+/*Shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
     height: 40px;
     min-height: 40px;
   }
+
   .content {
     height: 30vh;
   }
+
   h1 {
     font-size: 24px;
   }
 }
+
 /* parallax-window */
-#parallax-window{
+#parallax-window {
   position: absolute;
   width: 100%;
   height: 100%;
